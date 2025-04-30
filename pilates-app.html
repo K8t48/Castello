@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PilatesFlex - Your Daily Pilates Workout Companion</title>
+    <meta
+      name="description"
+      content="PilatesFlex - The perfect Pilates workout app for your daily fitness routine. Professionally designed classes for all levels."
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="icons.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pilates-app.css" />
+
+    <!-- JS -->
+    <script src="bootstrap.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
+      <nav class="navbar navbar-expand-md navbar-light py-3" aria-label="Main">
+        <div class="container">
+          <a href="pilates-app.html" aria-label="Current Page: Home" class="navbar-brand text-dark">
+            <span class="fw-bold">PilatesFlex</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars fa-lg"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <div class="navbar-nav mt-3 mt-md-0 ms-auto">
+              <a class="nav-link px-md-3" href="#">CLASSES</a>
+              <a class="nav-link px-md-3" href="#">TRAINERS</a>
+              <a class="nav-link px-md-3" href="#">PRICING</a>
+            </div>
+            <a
+              class="btn btn-primary btn-sm rounded-pill mt-3 mt-md-0 ms-md-3"
+              href="#">GET STARTED</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Hero Section -->
+      <div class="container py-5">
+        <div class="row justify-content-lg-between align-items-lg-center">
+          <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+            <h1 class="display-4 fw-bold mb-4">Transform Your Body With Pilates</h1>
+            <p class="lead text-secondary">
+              Achieve strength, flexibility, and balance with our professionally designed Pilates classes. Perfect for all fitness levels, from beginners to advanced.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 mt-4">
+              <a class="btn btn-primary rounded-pill px-4 py-2" href="#">Download App</a>
+              <a class="btn btn-outline-primary rounded-pill px-4 py-2" href="#">Free Trial</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="device-wrapper">
+              <div class="iphone-x">
+                <img src="https://via.placeholder.com/250x500/7a98b0/ffffff?text=PilatesFlex+App" alt="" class="screen" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="bg-skew bg-skew-light">
+        <div class="container py-5">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Why Choose PilatesFlex?</h2>
+            <p class="text-secondary mx-auto" style="max-width: 600px;">Our app is designed to make Pilates accessible to everyone, anywhere, anytime.</p>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card card-hover h-100 border-0 rounded-3">
+                <div class="card-body p-4 text-center">
+                  <span class="icon icon-primary mb-3">
+                    <i class="icon-inner fas fa-video" aria-hidden="true"></i>
+                  </span>
+                  <h3 class="h4 fw-bold">HD Video Classes</h3>
+                  <p class="mb-0 text-secondary">
+                    High-quality videos with clear instructions and multiple angles to ensure proper form.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card card-hover h-100 border-0 rounded-3">
+                <div class="card-body p-4 text-center">
+                  <span class="icon icon-primary mb-3">
+                    <i class="icon-inner fas fa-user-friends" aria-hidden="true"></i>
+                  </span>
+                  <h3 class="h4 fw-bold">Expert Instructors</h3>
+                  <p class="mb-0 text-secondary">
+                    Learn from certified Pilates instructors with years of teaching experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card card-hover h-100 border-0 rounded-3">
+                <div class="card-body p-4 text-center">
+                  <span class="icon icon-primary mb-3">
+                    <i class="icon-inner fas fa-sliders-h" aria-hidden="true"></i>
+                  </span>
+                  <h3 class="h4 fw-bold">Personalized Programs</h3>
+                  <p class="mb-0 text-secondary">
+                    Custom workout plans tailored to your fitness level, goals, and available time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Workout Types Section -->
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Explore Our Classes</h2>
+          <p class="text-secondary mx-auto" style="max-width: 600px;">From beginner to advanced, we have classes for every level and goal.</p>
+        </div>
+        
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 rounded-3 overflow-hidden">
+              <img src="https://via.placeholder.com/600x400/7a98b0/ffffff?text=Beginner+Classes" class="card-img-top" alt="Beginner Pilates Classes">
+              <div class="card-body">
+                <h3 class="h5 fw-bold">Beginner Classes</h3>
+                <p class="text-secondary">Perfect for those new to Pilates, focusing on fundamentals and proper technique.</p>
+                <a href="#" class="btn btn-sm btn-outline-primary rounded-pill">View Classes</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 rounded-3 overflow-hidden">
+              <img src="https://via.placeholder.com/600x400/5d7a90/ffffff?text=Intermediate+Classes" class="card-img-top" alt="Intermediate Pilates Classes">
+              <div class="card-body">
+                <h3 class="h5 fw-bold">Intermediate Classes</h3>
+                <p class="text-secondary">Challenge yourself with more complex movements and longer sequences.</p>
+                <a href="#" class="btn btn-sm btn-outline-primary rounded-pill">View Classes</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 rounded-3 overflow-hidden">
+              <img src="https://via.placeholder.com/600x400/405c70/ffffff?text=Advanced+Classes" class="card-img-top" alt="Advanced Pilates Classes">
+              <div class="card-body">
+                <h3 class="h5 fw-bold">Advanced Classes</h3>
+                <p class="text-secondary">Intensive workouts for experienced practitioners looking to master difficult exercises.</p>
+                <a href="#" class="btn btn-sm btn-outline-primary rounded-pill">View Classes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials Section -->
+      <div class="bg-skew bg-skew-light">
+        <div class="container py-5">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">What Our Users Say</h2>
+            <p class="text-secondary mx-auto" style="max-width: 600px;">Join thousands of satisfied members who have transformed their bodies with PilatesFlex.</p>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card border-0 rounded-3 h-100">
+                <div class="card-body p-4">
+                  <div class="mb-3">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </div>
+                  <p class="mb-4">"I've been using PilatesFlex for 3 months and already see a huge difference in my strength and flexibility. The instructors are amazing!"</p>
+                  <div class="d-flex align-items-center">
+                    <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                      <span>SM</span>
+                    </div>
+                    <div class="ms-3">
+                      <h4 class="h6 fw-bold mb-0">Sarah M.</h4>
+                      <small class="text-secondary">Member since 2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card border-0 rounded-3 h-100">
+                <div class="card-body p-4">
+                  <div class="mb-3">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </div>
+                  <p class="mb-4">"As a busy mom, I love that I can fit in quick 15-minute workouts when my baby is napping. The app is so easy to use and the classes are perfect!"</p>
+                  <div class="d-flex align-items-center">
+                    <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                      <span>JT</span>
+                    </div>
+                    <div class="ms-3">
+                      <h4 class="h6 fw-bold mb-0">Jessica T.</h4>
+                      <small class="text-secondary">Member since 2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card border-0 rounded-3 h-100">
+                <div class="card-body p-4">
+                  <div class="mb-3">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </div>
+                  <p class="mb-4">"I've tried many fitness apps, but PilatesFlex is by far the best. The personalized programs keep me motivated and I've seen amazing results."</p>
+                  <div class="d-flex align-items-center">
+                    <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                      <span>RK</span>
+                    </div>
+                    <div class="ms-3">
+                      <h4 class="h6 fw-bold mb-0">Robert K.</h4>
+                      <small class="text-secondary">Member since 2021</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card border-0 rounded-4 bg-primary text-white p-2">
+              <div class="card-body p-md-5 text-center">
+                <h2 class="fw-bold mb-3">Ready to Start Your Pilates Journey?</h2>
+                <p class="mb-4 mx-auto" style="max-width: 600px;">Download the PilatesFlex app today and get a 7-day free trial. No commitment, cancel anytime.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                  <a href="#" class="btn btn-light rounded-pill px-4 py-2">
+                    <i class="fab fa-apple me-2"></i>App Store
+                  </a>
+                  <a href="#" class="btn btn-outline-light rounded-pill px-4 py-2">
+                    <i class="fab fa-google-play me-2"></i>Coming Soon to Google Play
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-white pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h2 class="h5 fw-bold">PilatesFlex</h2>
+            <p class="text-secondary">
+              Transform your body and mind with our premium Pilates workout app.
+            </p>
+            <div class="d-flex gap-3 mb-4">
+              <a href="#" class="icon icon-sm icon-secondary">
+                <i class="icon-inner fab fa-instagram" aria-hidden="true"></i>
+                <span class="visually-hidden">Instagram</span>
+              </a>
+              <a href="#" class="icon icon-sm icon-secondary">
+                <i class="icon-inner fab fa-facebook-f" aria-hidden="true"></i>
+                <span class="visually-hidden">Facebook</span>
+              </a>
+              <a href="#" class="icon icon-sm icon-secondary">
+                <i class="icon-inner fab fa-twitter" aria-hidden="true"></i>
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <h3 class="h6 fw-bold">App</h3>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Features</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Workouts</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Trainers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <h3 class="h6 fw-bold">Company</h3>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">About Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Careers</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <h3 class="h6 fw-bold">Support</h3>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Help Center</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Terms of Service</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+            <h3 class="h6 fw-bold">Download</h3>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">iOS App</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-secondary text-decoration-none">Android App</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-top py-4 mt-4">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              <small class="text-secondary">&copy; 2023 PilatesFlex. All rights reserved.</small>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <small>
+                <a href="#" class="text-secondary text-decoration-none me-3">Terms</a>
+                <a href="#" class="text-secondary text-decoration-none me-3">Privacy</a>
+                <a href="#" class="text-secondary text-decoration-none">Cookies</a>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
